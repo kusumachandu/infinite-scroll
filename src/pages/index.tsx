@@ -92,7 +92,7 @@ export default function Home() {
                 ? "fetching data...."
                 : (data?.pages.length ?? 0) < 10
                 ? "Load More"
-                : "'Nothing more to load"}
+                : "Nothing more to load"}
             </button>
           </div>
         </div>
